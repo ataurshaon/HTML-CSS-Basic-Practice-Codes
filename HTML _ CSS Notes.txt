@@ -1,0 +1,631 @@
+--Class 3 & 4--
+
+1. To write HTML tag in VS code just write the name of the tag then press tap button.
+
+2. To entry lorem for paragraph tag just writhe lorem5 that means after write lorem how many digits are added then those words are will be shown in paragraph tag.
+
+--Class 5--
+
+1. Heading tag h1 to h6.
+
+2. Two types of HTML tag 1. Block level element, 2. Inline element Tag.
+
+--Class 6--
+
+1. To bold the letter use strong tag.
+
+2. To italic the letter use em tag.
+
+3. To underline use u tag.
+
+4. To use delete line in the word use del tag.
+
+5. To mark use mark tag.
+
+6. To use superscript use sup tag.
+
+7. To use subscript use sub tag.
+
+-- Class 8--
+
+1. To use line break use pre tag.
+
+2. For picture use pixabay website.
+
+3. Two types of tag 1. Single tag 2. Double tag.
+
+4. For using img tag should have use alt tag.
+
+--Class 9--
+
+1. To find out HTML 5 structure in VS Code press shift+!.
+
+2. Three types of CSS 1. Inline 2. Internal 3. External.
+
+3. By default website font size is 16px.
+
+4. To change font size use font-size tag in CSS style sheet.
+
+--Class 10--
+
+1. To change font style use font-family tag in CSS style sheet.
+
+2. Don't use computer installed font style. Should have use from google.
+
+3. Don't use different syntax such as h2 tag 
+
+4. To use bold and normal in font use font-weight tag in CSS style sheet.
+
+5. latest used property's value changes in web page.
+
+6. To change font style use font-style tag such as italic style.
+
+7. To change color of the font use color tag.
+
+8. To change Uppercase of all letter of the sentence use text-transform: uppercase; tag
+
+9. For lowercase of all letter of the sentence use text-transform:lowercase; tag.
+
+10. For use first letter capital use text-transform: capitalize; tag.
+
+--Class 11--
+
+1. class define from the right angle of the HTML tag.
+
+2. In CSS for using class should have use . then class name then curley bracket.
+
+3. Class can be used several times but ID can not.
+
+--Class 12--
+
+1. Go to google fonts from browser then search font name then select font which I need then copy the link paste it after tile tag and also copy font family name then paste to the CSS style sheet.
+
+--Class 13--
+
+1. For background color use background-color property in CSS style sheet.
+
+2. To remove left or right default space use body{margin: 0; padding: 0;} in CSS stylesheet.
+
+3. For comment in HTML use <!-- What is this -->
+
+4. In website there are two tpes of element 1. Inline element- span, img tag 2. Block element- h1 to h6, p tag etc.
+
+5. Shift+alt+down arrow to copy from above.
+
+6. 4 types of margin- margin top,right,bottom,left.
+
+7. If we use only margin property then it will work for 4 sides.
+
+8. For using margin: 100 px 0; for first value will be used for top and bottom & second value will be used for left and right.
+
+9. 4 types of padding- padding top,right,bottom,left.
+
+10. As like as margin if we use only padding property then it will work for all side.
+
+11. Same as margin if we use padding: 100px 80px; for first value it will use for top & bottom, for second value it will use for left & right.
+
+12. margin & padding property use in clockwise.
+
+13. From inspect element we can use CSS style sheet. Copy rule to copy all the class & also can individual copy of the property. The changes from inspect element should have copy to original CSS style sheet.
+
+--Class 14--
+
+1. id name can be used only one time but class name can be used several times.
+2. id defined by # before id name in CSS style sheet.
+
+3. To align the text in equal position use text-align: justify; as like use for center, left or right.
+
+4. For width of the paragraph use width: 400px;
+
+5. To give space one sentence to another in a paragraph use line-height property in CSS style sheet. line height should be 1.5 * default font size. So we know that default font size in a website is 16px. So our line height should be line-height: 24px;
+
+6. To use border in a paragraph use border: 2px solid red; in CSS style sheet. There are 4 types of border as like as margin & padding. 
+
+7. If we use height property then border of the paragraph can be shorter than the whole paragraph. Then the text can be out of the border.
+8. For above problem we can use overflow property. If we use overflow: hidden; then the outside texts of the border will be hide & if we use the property overflow: scroll; then all text will be added in the border with the scrollbar.
+
+9. We know that p tag is a block label element & span tag is an inline element.
+So, if we use p tag in another p tag then this p tag will block all the position of the website by default. We can remove block label element by using display property and also make inline element into block label element by using display property. Such as for p tag if we use property display: inline; the p tag texts will be inline. And if we use property display: block for span tag it will block the position as like as p tag.
+
+--Class 15--
+
+1. To use empty div tag define a class then three property needed in CSS style sheet width, height & background-color. Such as .mydiv{width: 300px; height: 250px, background-color: red;}
+
+2. Comment shortcut in HTML CTRL+/.
+
+3. For using pseudo element-hover in CSS style sheet just use div class- .mydiv: hover{width: 350px; height: 300px; color: green;}
+4. For define time in hover effect use transition property tansition: 1s; in CSS style sheet in .mydiv class. 
+
+5. For insert image using CSS use property background: url(img1.jpg); Also should have use the property - background-repeat: no-repeat; & background-size: cover; & for only image this property can be used - background-position: center;
+Note: background-repeat: no-repeat; & background-size: cover; this two property must be used for all background: url(); property. And for insert image by css we need to remove background color property first.
+
+6. Property margin: 0 auto; it will take the image to the center of the web page.
+
+7. To point the mouse cursor use cursor: pointer; 
+
+Note: To use empty div tag should have use width, height & background property.
+
+--Class 16-- 
+
+1. We need to folder organization for images & media files. So if we move images in a folder name image then in HTML src attribute we should write the name of the folder then the image name such as image/image1.jpg.
+
+2. Color hex code website- flat ui colors. We can copy color hex code from flat ui colors website then use in css stylesheet.
+
+3. We should use # before hex code of the color.
+
+4. Screenshot with lightshot.
+
+5. To use video in website use video tag then in video tag have to use source single tag. As an example <video> <source src= "folder/videofilename"> </video>. By this tag video will be shown in website but can not play. To play video have to use control attribute.
+
+6. To control video in website have to use control attribute before right angle of the opening video tag. As an example <video controls> <source src= "folder/videofilename"> </video>
+
+7. For video in CSS class no need to use height because it will take height automatically. We can use only width property.
+
+8. For video play again use single attribute loop in opening video tag. As an example <video controls> <source src= "folder/videofilename" loop> </video>
+
+Note: for video tag controls & loop attribute are single attribute without any value.
+
+9. To add poster image in a video have to use attribute poster= "folder/imagename" in opening video tag.
+
+10. To add audio in website use audio tag as like as video tag. As an example: <audio controls loop><source = src="folder/audiofilename"</audio>
+
+--Class 17--
+
+1. To add youtube video in website go to youtube then select a video after that click in share button then click embed copy the link and paste it in html body tag. 
+
+2. To use button in HTML use button tag. To go to any link in the button use a tag. As an example 
+
+<button class= "btn"><a href= "http:// www.google.com" target="_blank">Click here </button>
+
+3. To remove underline of the button for a tag use property text decoration: none; As an example .btn a { text-decoration: none; color: black; }. We need to define a tag for using above property.
+
+4. To remove the default border use property- border: none; in CSS.
+
+5. To remove the corner side of the button use property- border-radius: 2px; in CSS.
+
+6. To move the button use margin propety in CSS.
+
+7. Use transition property in parent class for hover effect.
+
+8. The text color changed in a tag so we need to do hover in a tag.
+
+As an example
+
+.btn{
+    background-color: #000000;
+    margin: 50px 0 0 50px;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 2px;
+    transition: 1s;
+
+}
+
+.btn:hover{
+    background-color: #d35400;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn a:hover{
+    color:#000000;
+}  
+
+9. For using marquee tag just use <marquee>This is our heading</marquee>. By this the whole text will be moving from right to left.
+
+10. Two types of list in HTML. 1. Ordered list 2. Unordered list.
+
+11. For ordered list we can use below tag
+ 
+<ol>
+   <li>one</li>
+   <li>one</li>
+   <li>one</li>
+   <li>one</li>	
+</ol>
+
+12. For using unorderd list we can use below tag
+
+<ul>
+  <li>one</li>
+  <li>one</li>
+  <li>one</li>
+  <li>one</li>
+</ul>
+
+13. Now we can move ul tag in a div and define a class to remove the bullet in the list.
+
+14. So, our div class is ulstyle to remove bullet we can use below property in css.
+
+.ulstyle ul li {
+    list-style: none;
+}
+
+Note: We can use list style square,circle etc.
+
+15. To capitilize the first letter we can use text-transform:capitalize; property.
+
+.ulstyle ul li {
+    list-style: none;
+    text-transform: capitilize;
+}
+
+16. To move list one beside another we can use float property in CSS.
+
+.ulstyle ul li {
+    list-style: none;
+    text-transform: capitilize;
+    float: left;
+    margin-right: 10px;
+}
+
+--Class 18--
+
+1. To use form need to take form tag. In form tag we should use two attributes action & method for web development. As an example 
+<form action="" method=""></form>
+
+2. To input text box in form use single tag input. as an example:
+<form action="" method="">
+        <input type="text">
+</form>
+
+3. For showing text in the text box use placeholder attribute. As an example:
+
+<form action="" method="">
+        First Name:
+        <input type="text" placeholder="Enter Your First Name">
+        Last Name:
+        <input type="text" placeholder="Enter Your Last Name">
+</form>
+
+4. For line break in html use br tag. As an example: 
+
+<form action="" method="">
+        First Name:
+        <input type="text" placeholder="Enter Your First Name"> <br><br>
+        Last Name:
+        <input type="text" placeholder="Enter Your Last Name">
+</form>
+
+5. For use cursor in textbox if we click on the label tag text of before text box use label tag in html and also use value in for attribute. Then this value should be used for id attribute in input tag as same as value of for attribute. As an example:
+
+ <form action="" method="">
+        <label for="first">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name" id="first">  
+ </form>
+
+6. For using email box in form tag input type must be email. As an example:
+
+<form action="" method="">
+        <label for="first">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name" id="first">
+        <br><br>
+        <label for="last">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name" id="last">
+        <br><br>
+        <label for="mail">E-Mail</label>
+        <input type="email" placeholder="Enter Your E-Mail" id="mail">  
+</form>
+
+7. For using pasword box in form tag input type must be password. As an example:
+
+<form action="" method="">
+        <label for="first">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name" id="first">
+        <br><br>
+        <label for="last">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name" id="last">
+        <br><br>
+        <label for="mail">E-Mail:</label>
+        <input type="email" placeholder="Enter Your E-Mail" id="mail">
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" placeholder="Enter Your Password" id="pass">  
+ </form>
+
+8. For using radion button must be use input type radio and should have use name attribute same value for two radio buttons for selecting only one radio button we have to use name attribute. 
+
+As an example: 
+
+<form action="" method="">
+        <label for="first">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name" id="first">
+        <br><br>
+        <label for="last">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name" id="last">
+        <br><br>
+        <label for="mail">E-Mail:</label>
+        <input type="email" placeholder="Enter Your E-Mail" id="mail">
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" placeholder="Enter Your Password" id="pass">
+        <br><br>
+        <label>Gender:</label> <br><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female  
+</form>
+
+9. Now using label tag for above male & female and also use attribute for in label and id in input tag for selecting radio button after click on the name of the Female or Male text. As an example:
+
+<form action="" method="">
+        <label for="first">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name" id="first">
+        <br><br>
+        <label for="last">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name" id="last">
+        <br><br>
+        <label for="mail">E-Mail:</label>
+        <input type="email" placeholder="Enter Your E-Mail" id="mail">
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" placeholder="Enter Your Password" id="pass">
+        <br><br>
+        <label>Gender:</label> <br><br>
+        <input type="radio" name="gender" id="female"><label                 for="female">Female</label>
+        <input type="radio" name="gender" id="male"><label                 for="male">Male</label>  
+</form>
+
+10. For selecting one radio button by default use checked attribut in input tag.
+
+11. For selecting date such as birthday date we need to select day, month & year then need to use select tag & option tag under select tag. As an example:
+
+<form action="" method="">
+        <label for="first">First Name:</label>
+        <input type="text" placeholder="Enter Your First Name" id="first">
+        <br><br>
+
+        <label for="last">Last Name:</label>
+        <input type="text" placeholder="Enter Your Last Name" id="last">
+        <br><br>
+
+        <label for="mail">E-Mail:</label>
+        <input type="email" placeholder="Enter Your E-Mail" id="mail">
+        <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" placeholder="Enter Your Password" id="pass">
+        <br><br>
+
+        <label>Gender:</label> <br><br>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <input type="radio" name="gender" id="male" checked><label for="male">Male</label> 
+        <br><br> 
+
+        <label>Birthday</label><br>
+        <select>
+            <option>Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+
+        <select>
+            <option>Month</option>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+        </select>
+
+        <select>
+            <option>Year</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+        </select>
+
+</form>
+
+12. For using date of birth from calender just use input type date in form tag then calender will show in website. As an example:
+
+<label>Date of Birth</label><br>
+<input type="date">
+
+13. For defining minimum date such as we need just year-2020 to 2025 then we have to use min & max attribute in input tag of form tag. As an example:
+
+<label>Date of Birth</label><br>
+<input type="date" min="2-1-2020" max="2-1-2025">
+
+14. For uploading file we have to use input type file. Example:
+
+<label>Upload your photo</label><br>
+ <input type="file">
+
+Note: We don't need for attribute of label tag for selecting date & uploading files.
+
+15. For selecting favourite color use input type color in form tag. Example: 
+
+<label>Your Favorite Color</label>
+<input type="color">
+
+16. For sending message we have to use textarea tag. Example:
+
+<label>Your Message</label><br>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+
+for above name & id will be going to work in backend. We don't need it now. Now we can cols & rows attribute. We can increase or decrease the values of cols & rows to enlarege or small the textarea.
+
+17. For submitting form data we need submit button. So, for using submit button we need to take input type submit. And we can give any name by using value attribut in input tag. Example:
+
+18. For using reset button need to take input type reset. Example: 
+
+<input type="reset">
+
+19. We can use fieldset tag for well decoration form. And if we need to write anything about form then use legend tag. Example:
+
+    <fieldset>
+        <legend>This is our form</legend>
+        <form action="" method="">
+            <label for="first">First Name:</label>
+            <input type="text" placeholder="Enter Your First Name" id="first">
+            <br><br>
+    
+            <label for="last">Last Name:</label>
+            <input type="text" placeholder="Enter Your Last Name" id="last">
+            <br><br>
+    
+            <label for="mail">E-Mail:</label>
+            <input type="email" placeholder="Enter Your E-Mail" id="mail">
+            <br><br>
+    
+            <label for="pass">Password:</label>
+            <input type="password" placeholder="Enter Your Password" id="pass">
+            <br><br>
+    
+            <label>Gender:</label> <br><br>
+            <input type="radio" name="gender" id="female"><label             for="female">Female</label>
+            <input type="radio" name="gender" id="male" checked><label             for="male">Male</label> 
+            <br><br> 
+    
+            <label>Birthday</label><br>
+            <select>
+                <option>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+    
+            <select>
+                <option>Month</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+            </select>
+    
+            <select>
+                <option>Year</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+            </select>
+            <br><br>
+    
+            <label>Date of Birth</label><br>
+            <input type="date" min="2-1-2020" max="2-1-2025">
+            <br><br>
+    
+            <label>Upload your photo</label><br>
+            <input type="file">
+            <br><br>
+    
+            <label>Your Favorite Color</label>
+            <input type="color">
+            <br><br>
+            
+            <label>Your Message</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br><br>
+    
+            <input type="submit" value="Submit">
+            <input type="reset">
+    
+        </form>
+</fieldset>
+
+--Class 19--
+
+1. For using two div class side by side we need to use float property in style sheet. Because we know that div tag is a block element. As an example:
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin-left: 50px;
+    
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    margin-left: 10px;
+}
+
+2. We know that h1 is a block label element. So if we take two class of h1 tag then we can make them inline element by float property in style sheet.
+
+Note: for using float property we need to use width property. Example:
+
+for h1 tag
+.one{
+    float: left;
+    width: 250px;
+    margin-left: 20px;
+}
+
+for h2 tag
+.two{
+    float: right;
+    width: 250px;
+}
+
+--Class 20-- 
+
+1. CSS Position- 4 parameters in position- Position Static, Position fixed, position absolute, position relative.
+
+2. When we use position relative or absolute by default the div class have 4 parameter such as top, bottom, left, right. 
+
+3. When we use position relative this will move from it's own place to top, bottom, left, right.
+
+4. When use position absolute the div class will move on the full window of web page.
+
+5. If we want to move one div to another then it will show one into another. If we want to move the seconde div around the first div then we should use position relative in first div and position absolute in second div. Then second div will move around by first div.
+
+We can move the class of the div tag by using inspect element of the parameter of the position relative or absolute.
+
+ As an example
+
+.div1{
+    width: 400px;
+    height: 200px;
+    background: red;
+    position: relative;    
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute; 
+}
+
+6. For moving to center of anything use as below
+
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+Full css code as below:
+
+div1{
+    width: 400px;
+    height: 200px;
+    background: red;
+    position: relative;   
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+Note: 

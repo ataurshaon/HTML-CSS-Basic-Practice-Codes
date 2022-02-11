@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.pstyleone{
+    width: 500px;
+    height: 350px;
+    text-align: justify;
+    line-height: 24px;
+    border: 2px solid red;
+    overflow: scroll;
+    
+}
+
+.pStyleTwo{
+    background-color: red;
+    
+}

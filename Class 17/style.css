@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.ulstyle ul li{
+    list-style: none;
+    text-transform: capitalize;
+    margin-right: 10px;
+    float: left;
+}
